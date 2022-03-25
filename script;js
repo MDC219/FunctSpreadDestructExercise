@@ -1,0 +1,58 @@
+//1
+
+const jPDinos = [
+    "Velociraptors",
+    "Trannosaurus Rex",
+    "Dilophosaurus"
+];
+
+function seeDinos(...i) {
+    console.log(i);
+    console.log(j);
+
+
+};
+seeDinos(`Velociraptors`,
+    `TyrannasaursRex`,
+    `Dilophosauraus`,
+);
+// or seeDinos(...,seeDinos)
+
+const jPcharacters = {
+
+  alanGrant:  "Sam Neill",
+  ellieSattler: "Laura Dern",
+   ianMalcom: "Jeff Goldblum",
+
+};
+
+seeCharacters(jPcharacters);
+
+
+
+
+const jurrasicParkMovies = [
+{
+   one: `JurrasicPark`,
+   two: `The Lost World: JurrasicPark`,
+   three: `JurrasicPark III`,
+
+   four: `Jurrasic World`,
+   five: `Jurrasic World:Fallen Kingdon`,
+   six: `Jurrasic World: Dominion`,
+}
+
+];
+
+
+const[{one,two,three},{four,five,six}] = jurassicParkMovies;
+const allMovies = [one,two,three,four,five,six];
+seeJPMovies = y => {
+    console.log(one);
+    console.log(two);
+    console.log(three);
+    console.log(four);
+    console.log(five);
+    console.log(six);
+}
+seeJPMovies(allMovies);
